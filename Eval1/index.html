@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web-101 C2</title>
+  <style>
+    h2,
+    h4 {
+      text-align: center;
+    }
+
+
+
+    .top {
+      display: flex;
+    }
+
+    .top img {
+      height: 300px;
+    }
+
+    .mid div>p {
+      text-align: center;
+      width: 60%;
+      margin: auto;
+    }
+
+    .bottom div>p {
+      text-align: center;
+      width: 60%;
+      margin: auto;
+    }
+
+
+
+    .bottom>div>div>img {
+      width: 100%;
+    }
+
+
+
+    .mid>div:nth-child(2) {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+
+    }
+
+    .mid>div>div>img {
+      width: 100%;
+    }
+
+    .bottom>div:nth-child(2) {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-top: 30px;
+    }
+
+    button {
+
+      background-color: white;
+      border: solid black;
+      margin: auto;
+      margin-left: 0 50%;
+    }
+
+    .bottom>div>div {
+      display: flex;
+      flex-direction: column;
+    }
+
+
+
+    @media all and (max-width: 1100px) and (min-width:601px) {
+
+      /* Medium Screen Styles  */
+      .top {
+        display: block
+      }
+
+      .top img {
+        height: 300px;
+        width: 80%;
+        margin: auto;
+      }
+
+      .mid>div:nth-child(2) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+      }
+
+
+
+
+
+
+
+      .bottom>div:nth-child(2) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+      }
+
+      .botom img {
+        width: 100%;
+      }
+    }
+
+
+    @media all and (max-width: 601px) and (min-width:200px) {
+
+      /* Small Screen Styles  */
+      .top {
+        display: block
+      }
+
+      .top img {
+        height: 300px;
+        width: 80%;
+        margin: auto;
+      }
+
+      .mid>div:nth-child(2) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+
+      }
+
+      .bottom>div:nth-child(2) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="top">
+    <!-- Two Divs should be inside here  -->
+    <div>
+      <h2>Lorem ipsum dolor sit amet consectetur adipisi</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel soluta minima hic labore voluptate harum commodi
+        non magnam accusamus, ea amet repudiandae dolor illum enim quisquam nesciunt iure distinctio odit?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur officiis sapiente, aliquam dolores saepe
+        nisi quas molestiae enim laboriosam nulla doloremque possimus? Dolorum veritatis quisquam tenetur tempora unde
+        totam reprehenderit?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, consequatur quaerat. Voluptas nesciunt
+        odio, quibusdam totam quidem temporibus eveniet dicta, unde cumque maiores tenetur. Facilis deleniti beatae
+        provident? Numquam, neque.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsum rem amet iure molestiae perferendis aliquam
+        magnam quos, earum nisi libero fugiat nihil pariatur alias voluptatem, quo cum minima maxime!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque quas optio aspernatur nulla tempore soluta
+        eveniet temporibus accusantium sed recusandae, laborum dolore officia dicta ab a fuga labore esse quos!
+      </p>
+    </div>
+    <div>
+      <img src="https://marketup.com/wp-content/uploads/2022/06/Home-Mock.png" alt="">
+    </div>
+  </div>
+  <div class="mid">
+    <div>
+      <h2>Lorem ipsum dolor</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iste suscipit voluptatum tota</p>
+    </div>
+    <div>
+      <div><img
+          src="https://image.shutterstock.com/image-vector/business-handshake-contract-agreement-thin-260nw-661638880.jpg"
+          alt=""></div>
+      <div><img
+          src="https://image.shutterstock.com/image-vector/business-handshake-contract-agreement-thin-260nw-661638880.jpg"
+          alt=""></div>
+      <div><img
+          src="https://image.shutterstock.com/image-vector/business-handshake-contract-agreement-thin-260nw-661638880.jpg"
+          alt=""></div>
+      <div><img
+          src="https://image.shutterstock.com/image-vector/business-handshake-contract-agreement-thin-260nw-661638880.jpg"
+          alt=""></div>
+      <div><img
+          src="https://image.shutterstock.com/image-vector/business-handshake-contract-agreement-thin-260nw-661638880.jpg"
+          alt=""></div>
+      <div><img
+          src="https://image.shutterstock.com/image-vector/business-handshake-contract-agreement-thin-260nw-661638880.jpg"
+          alt=""></div>
+      <div><img
+          src="https://image.shutterstock.com/image-vector/business-handshake-contract-agreement-thin-260nw-661638880.jpg"
+          alt=""></div>
+      <div><img
+          src="https://image.shutterstock.com/image-vector/business-handshake-contract-agreement-thin-260nw-661638880.jpg"
+          alt=""></div>
+
+    </div>
+
+    <!-- Two Divs should be inside here and on the second div you have to put 8 caards  -->
+  </div>
+  <div class="bottom">
+    <div>
+      <h2>Lorem ipsum dolor</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iste suscipit voluptatum tota</p>
+    </div>
+    <div>
+      <div>
+        <img
+          src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-09-08/Screenshot%202022-09-06%20at%2012.13.44%20PM_859545.png"
+          alt="">
+        <h4>Lorem ipsum donet</h4>
+        <button>Lorem ips</button>
+      </div>
+      <div>
+        <img
+          src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-09-08/Screenshot%202022-09-06%20at%2012.13.44%20PM_859545.png"
+          alt="">
+        <h4>Lorem ipsum donet</h4>
+        <button>Lorem ips</button>
+      </div>
+      <div>
+        <img
+          src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-09-08/Screenshot%202022-09-06%20at%2012.13.44%20PM_859545.png"
+          alt="">
+        <h4>Lorem ipsum donet</h4>
+        <button>Lorem ips</button>
+      </div>
+      <div>
+        <img
+          src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-09-08/Screenshot%202022-09-06%20at%2012.13.44%20PM_859545.png"
+          alt="">
+        <h4>Lorem ipsum donet</h4>
+        <button>Lorem ips</button>
+      </div>
+    </div>
+    <!-- Two Divs should be inside here and on the second div you have to put 4 caards  -->
+  </div>
+</body>
+
+</html>
